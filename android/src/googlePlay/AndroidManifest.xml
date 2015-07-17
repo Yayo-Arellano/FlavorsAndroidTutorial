@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.tiarsoft.tutorial.android">
+
+    <application>
+
+        <!-- Google play services -->
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version"/>
+
+        <!-- Google play game services -->
+        <meta-data
+                android:name="com.google.android.gms.games.APP_ID"
+                android:value="@string/google_game_app_id"/>
+
+
+    </application>
+
+</manifest>
